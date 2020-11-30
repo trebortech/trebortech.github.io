@@ -1,1 +1,5 @@
-theme: jekyll-theme-minimal
+# Site wide configuration
+
+title: TreborTech, LLC.
+locale: en_US
+
