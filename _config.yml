@@ -21,7 +21,7 @@
 title: TreborTech
 email: site@trebortech.com
 description: >- # this means to ignore newlines until "baseurl:"
-   At times you will question yourself. It is then you should realize your power.
+   Nobody should ever have to solve a problem twice.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.trebortech.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: trebortech
