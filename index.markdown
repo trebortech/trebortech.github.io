@@ -5,3 +5,7 @@
 layout: home
 title: My Thoughts
 ---
+
+This blog is random work I've done and thoughts I've had.
+
+Each blog will have a YouTube video intro video. This will help me keep the information focused on its intended purpose.

@@ -28,7 +28,7 @@ twitter_username: trebortech
 github_username:  trebortech
 
 # Run settings
-port: 8080
+port: 8081
 
 # Build settings
 theme: minima
