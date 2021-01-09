@@ -18,25 +18,27 @@
 {"url":"http://localhost:8081/","headline":"My Thoughts","description":"Nobody should ever have to solve a problem twice.","name":"TreborTech","@type":"WebSite","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:8081/feed.xml" title="TreborTech" /></head>
+
 <body>
+    
     <div class="container-1">
-      <div class="container-2">
+      <div id="side-1" class="container-2">
         <div class="box-1"></div>
         <div class="box-3">
 
 <div class="box-3">
-  <h2 >TreborTech</h2>
+  <h1 class="title-text">TreborTech</h2>
   <div>
     <div>
-        <ul class="contact-list">
-          <li class="p-name">TreborTech</li><li><a class="u-email" href="mailto:site@trebortech.com">site@trebortech.com</a></li></ul>
+      <div><nav>
+            <div><a class="tt-links" href="/">My Thoughts</a><br><a class="tt-links" href="/outdoors.html">Outdoors</a><br><a class="tt-links" href="/projects.html">Projects</a><br><a class="tt-links" href="/technology.html">Technology</a><br></div>
+          </nav></div>
     </div>
   
-    <div><ul class="social-media-list"><li><a href="https://github.com/trebortech"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">trebortech</span></a></li><li><a href="https://www.twitter.com/trebortech"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">trebortech</span></a></li></ul>
-</div>
+    <div class="tt-social"><a href="https://github.com/trebortech"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="tt-username">trebortech</span></a><a href="https://www.twitter.com/trebortech"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="tt-username">trebortech</span></a></div>
   
     <div>
-        <p>Nobody should ever have to solve a problem twice.</p>
+        <p class="tt-footer">Nobody should ever have to solve a problem twice.</p>
     </div>
   </div>
 </div>
@@ -50,34 +52,38 @@
   <p>This blog is random work I’ve done and thoughts I’ve had.</p>
 
 <p>Each blog will have a YouTube video intro video. This will help me keep the information focused on its intended purpose.</p>
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jan 5, 2021</span>
-        <h3>
-          <a class="post-link" href="/outdoors/camper/2021/01/05/test-camperpost.html">
-            Camper post test
-          </a>
-        </h3></li><li><span class="post-meta">Jan 5, 2021</span>
-        <h3>
-          <a class="post-link" href="/outdoors/2021/01/05/test-post.html">
-            Test outdoor post
-          </a>
-        </h3></li><li><span class="post-meta">Jan 5, 2021</span>
-        <h3>
-          <a class="post-link" href="/2021/01/05/your-first-bitcoin.html">
-            Your First Bitcoin
-          </a>
-        </h3></li><li><span class="post-meta">Jan 4, 2021</span>
-        <h3>
-          <a class="post-link" href="/jekyll/2021/01/04/first-jekyll-post.html">
-            Learning Jekyll
-          </a>
-        </h3></li></ul>
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>
   
       </div>
     </div>
 
-  </body>
+  </body><script type="text/javascript">
 
+    var path = window.location.pathname;
+    var page = path.split("/");
+    var t = document.getElementById("side-1")
+    
+    switch (page[1]) {
+        case 'technology':
+        case 'technology.html':
+            t.style.backgroundImage = `url('/assets/img/yk-hsm.png')`;
+            break;
+        case 'outdoors':
+        case 'outdoors.html':
+            t.style.backgroundImage = `url('/assets/img/outdoor.png')`;
+            break;
+        case 'projects':
+        case 'projects.html':
+            t.style.backgroundImage = `url('/assets/img/yk-case.png')`;
+            break;
+        default:
+            t.style.backgroundImage = `url('/assets/img/luna-opa.jpg')`;
+
+}
+    
+</script>
 </html>
