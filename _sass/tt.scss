@@ -17,14 +17,26 @@
     background-size: cover;
 }
 
+.container-3 {
+    flex: 5;
+    flex-direction: column;
+    display: flex;
+    background-color: #D6EAF8;
+    height: 100vh;
+    color: whitesmoke;
+    padding-left: 50px;
+    padding-top: 50px;
+    background: url(../assets/img/bkg.png);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
+}
+
 .box-1 {
     height: 100vh;
 }
-  
-.box-2 {
-    flex: 5;
-    padding-left: 20px;
-}
+
 
 .box-3 {
     text-align: center;
@@ -50,11 +62,6 @@
     margin-right: 25px;
 }
 
-.tt-hr{
-    margin-top: 50px;
-    width: 80%;
-    color: floralwhite;
-}
 .tt-social{
     text-align: center;
     margin-top: 50px;
@@ -73,4 +80,18 @@
     color: #2E86C1 ;
     margin-top: 20px;
     text-align: center;
+}
+
+.main-page-title {
+    margin-bottom: 50px;
+}
+
+.main-page-text {
+    margin-left: 75px;
+    margin-right: 400px;
+    letter-spacing: 3px;
+}
+
+.post-body-outline{
+    margin-top: 50px;
 }
