@@ -38,7 +38,11 @@ What is it?
 <div class="h6 main-page-text fw-lighter">
 Bitcoin, blockchain, digital gold, crypto-currency. You will hear many names for it but understand this will be in your vocablary regardless of who you are. For those of us who remember being introduced to the internet and how the world we live in today was unimaginable, this is bigger than that.
 
-Back in the early 90's e-mail, smartphone, webpage, url where strange words t
+Back in the early 90's e-mail, smartphone, webpage, url where strange words that confused us when used. Today they are normalized and used without second thought. Remember when you first heard Google it?
+
+These are just a few examples of how technology and it's terminology integrates so seemlessly into our lives. Bitcoin and cryptocurrency are two terms that are well on there way to becomming the next normalized technology terms.
+
+The technology behind cryptocurrency hits at the core of our everyday lives. Currency.
 
 </div>
 </div>
