@@ -8,7 +8,7 @@ title: My Thoughts
 
 <div class="tt-main-page">
 <div class="display-1 main-page-title">
-TreborTech
+My Thoughts
 </div>
 
 <div>
