@@ -274,32 +274,29 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
-.container-1 { flex-direction: row; display: flex; height: 100vh; }
+html { height: 100%; }
 
-.container-2 { flex: 2; flex-direction: column; display: flex; background-color: #D6EAF8; height: 100vh; background: url(../assets/img/luna-opa.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+/* Main site container */
+.container-main { display: flex; flex-grow: 1; }
 
-.container-3 { flex: 5; flex-direction: column; display: flex; background-color: #D6EAF8; height: 100vh; color: whitesmoke; padding-left: 50px; padding-top: 50px; background: url(../assets/img/bkg.png); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.container-left { flex: 2; flex-direction: column; background-color: #D6EAF8; background: url(../assets/img/luna-opa.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-.box-1 { height: 100vh; }
+.container-right { flex: 6; flex-direction: column; background-color: #D6EAF8; color: whitesmoke; padding-left: 5%; padding-top: 5%; padding-right: 5%; background: url(../assets/img/bkg.png); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-.box-3 { text-align: center; color: #2E86C1; text-decoration: floralwhite; background-color: #D6EAF8; opacity: 0.95; align-content: flex-end; }
+.left-bottom { text-align: center; margin-top: 100%; color: #2E86C1; text-decoration: floralwhite; background-color: #D6EAF8; opacity: 0.85; }
 
 .title-text { text-align: center; color: #2E86C1; }
 
-.tt-post-title { margin-top: 50px; font-size: xx-large; }
+.tt-post-title { font-size: xx-large; }
 
-.tt-username { color: black; margin-right: 25px; }
+.tt-username { color: black; }
 
-.tt-social { text-align: center; margin-top: 50px; margin-left: 35px; color: floralwhite; }
+.tt-social { text-align: center; color: floralwhite; }
 
-.tt-links { text-align: center; margin-bottom: 10px; font-size: larger; color: black; text-decoration: black; }
+.tt-links { text-align: center; font-size: larger; color: black; text-decoration: black; }
 
-.tt-footer { color: #2E86C1; margin-top: 20px; text-align: center; }
+.tt-footer { color: #2E86C1; text-align: center; }
 
-.main-page-title { margin-bottom: 50px; }
-
-.main-page-text { margin-left: 75px; margin-right: 400px; letter-spacing: 3px; }
-
-.post-body-outline { margin-top: 50px; margin-bottom: 100px; }
+.main-page-text { letter-spacing: 3px; }
 
 /*# sourceMappingURL=main.css.map */

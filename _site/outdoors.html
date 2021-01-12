@@ -22,13 +22,13 @@
 
 <body>
     
-    <div class="container-1">
-      <div id="side-1" class="container-2">
-        <div class="box-1"></div>
-        <div class="box-3">
+    <div class="container-main">
+      <div id="side-left" class="container-left">
+        <div class="left-top"></div>
+        <div class="left-bottom">
 
-<div class="box-3">
-  <h1 class="title-text">TreborTech</h2>
+<div>
+  <h1 class="title-text">TreborTech</h1>
   <div>
     <div>
       <div><nav>
@@ -37,7 +37,6 @@
     </div>
   
     <div class="tt-social"><a href="https://github.com/trebortech"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="tt-username">trebortech</span></a><a href="https://www.twitter.com/trebortech"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="tt-username">trebortech</span></a></div>
-  
     <div>
         <p class="tt-footer">Nobody should ever have to solve a problem twice.</p>
     </div>
@@ -48,12 +47,11 @@
   </div>
       </div>
       
-      <div class="container-3">
+      <div class="container-right">
         <div>
           <div class="home">
-    <p>If you don’t have an uncompleted project you are not trying.
-Outdoor</p>
-<h2 class="post-list-heading">Outdoor Fun</h2>
+    
+<h1 class="display-1 main-page-title">Outdoor Fun</h1>
       <ul class="post-list"><li><span class="post-meta">Jan 5, 2021</span>
           <h3>
             <a class="post-link" href="/outdoors/camper/2021/01/05/test-camperpost.html">
@@ -75,7 +73,7 @@ Outdoor</p>
 
     var path = window.location.pathname;
     var page = path.split("/");
-    var t = document.getElementById("side-1")
+    var t = document.getElementById("side-left")
     
     switch (page[1]) {
         case 'technology':
