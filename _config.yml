@@ -31,6 +31,7 @@ github_username:  trebortech
 port: 8081
 
 # Build settings
+show_excerpts: true
 theme: minima
 plugins:
   - jekyll-feed

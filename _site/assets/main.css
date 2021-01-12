@@ -289,7 +289,8 @@ html { height: 100%; }
 
 .tt-post-title { font-size: xx-large; }
 
-.tt-username { color: black; }
+/* used in social link */
+.tt-username { color: black; margin-right: 15px; }
 
 .tt-social { text-align: center; color: floralwhite; }
 
@@ -298,5 +299,7 @@ html { height: 100%; }
 .tt-footer { color: #2E86C1; text-align: center; }
 
 .main-page-text { letter-spacing: 3px; }
+
+.post-title { margin-bottom: 45px; }
 
 /*# sourceMappingURL=main.css.map */

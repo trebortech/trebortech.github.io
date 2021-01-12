@@ -2,6 +2,7 @@
 layout: post
 title:  "Why Bitcoin"
 date:   2021-01-05 09:00:00 -0600
+excerpt_separator: <!--more-->
 ---
 
 
@@ -18,7 +19,7 @@ date:   2021-01-05 09:00:00 -0600
 <p class="h5 main-page-text lh-lg fw-lighter">
 You hear them talking about it on the news. You see tweets in your feed talking about. YouTube knows you're thinking about it and suggests CryptoDaily.
 </p>
-
+<!--more-->
 <p class="h6 main-page-text lh-lg fw-bold">
 What is it?
 </p>
