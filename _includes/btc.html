@@ -14,8 +14,8 @@
             return response.json();
         })
         .then(btc => {
-            btcbanner.innerHTML = formatter.format(btc.bpi.USD.rate_float);
-            btctimer.innerHTML = btc.time.updated;
+            btcbanner.innerHTML = "Bitcoin Price: " + formatter.format(btc.bpi.USD.rate_float);
+            btctimer.innerHTML = "Last Updated: " + btc.time.updated;
             console.log(btc.bpi.USD.rate);
             console.log(btc);
         });
