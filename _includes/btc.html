@@ -1,0 +1,23 @@
+<script type="text/javascript">
+
+    const formatter = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 2
+    })
+
+    var btcbanner = document.getElementById("btc-banner");
+    var btctimer = document.getElementById("btc-timer");
+
+    fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
+        .then(response => {
+            return response.json();
+        })
+        .then(btc => {
+            btcbanner.innerHTML = formatter.format(btc.bpi.USD.rate_float);
+            btctimer.innerHTML = btc.time.updated;
+            console.log(btc.bpi.USD.rate);
+            console.log(btc);
+        });
+        
+</script>

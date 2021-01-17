@@ -20,9 +20,9 @@
 {"url":"http://localhost:8081/outdoors/camper/2021/01/05/test-camperpost.html","headline":"Camper post test","dateModified":"2021-01-05T09:02:00-06:00","datePublished":"2021-01-05T09:02:00-06:00","description":"Coming soon","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8081/outdoors/camper/2021/01/05/test-camperpost.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
-  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:8081/feed.xml" title="TreborTech" /></head>
-
-<body>
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+  
+  <meta http-equiv="refresh" content="60"><link type="application/atom+xml" rel="alternate" href="http://localhost:8081/feed.xml" title="TreborTech" /></head><body>
     
     <div class="container-main">
       <div id="side-left" class="container-left">
@@ -50,6 +50,10 @@
       </div>
       
       <div class="container-right">
+        <div class="alert alert-primary">
+          Bitcoin Price: <div id="btc-banner"></div>
+          Last Update: <div id="btc-timer"></div>
+        </div>
         <div>
           <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -73,6 +77,28 @@
     </div>
 
   </body><script type="text/javascript">
+
+    const formatter = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 2
+    })
+
+    var btcbanner = document.getElementById("btc-banner");
+    var btctimer = document.getElementById("btc-timer");
+
+    fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
+        .then(response => {
+            return response.json();
+        })
+        .then(btc => {
+            btcbanner.innerHTML = formatter.format(btc.bpi.USD.rate_float);
+            btctimer.innerHTML = btc.time.updated;
+            console.log(btc.bpi.USD.rate);
+            console.log(btc);
+        });
+        
+</script><script type="text/javascript">
 
     var path = window.location.pathname;
     var page = path.split("/");
