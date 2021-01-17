@@ -52,7 +52,7 @@
           Bitcoin Price: <div id="btc-banner"></div>
           Last Update: <div id="btc-timer"></div>
         </div>
-        <div>
+        <div class="right-bottom">
           <div class="tt-main-page">
   <div class="tt-main-page">
 <div class="display-1 main-page-title">
@@ -66,14 +66,14 @@ This site contains random items I work on or have been thinking about. I'll try 
 
 <div class="main-page-title">
 <p class="h5 main-page-text lh-lg fw-light">
-The left panel has links to the content based on catagories.
+The left panel has links to the content based on categories.
 </p>
 </div>
 
 <div class="main-page-title">
 <div class="h5 main-page-text lh-lg fw-light">
 <p class="fw-bold">Outdoors:</p>
-<p> The last year I've been working on spending more time outdoor. We purchased a small camper to help with travel. This section covers that story of my life.
+<p> Last year I worked on spending more time outdoors. We purchased a small camper to help with travel. This section covers that story of my life.
 </p>
 </div>
 </div>
@@ -95,7 +95,7 @@ The left panel has links to the content based on catagories.
 </div>
 
 <p class="h5 main-page-text lh-lg fw-light">
-Hope you enjoy!
+Hope you enjoy it!
 </p>
 </div>
 
@@ -111,28 +111,6 @@ Hope you enjoy!
     </div>
 
   </body><script type="text/javascript">
-
-    const formatter = new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        minimumFractionDigits: 2
-    })
-
-    var btcbanner = document.getElementById("btc-banner");
-    var btctimer = document.getElementById("btc-timer");
-
-    fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
-        .then(response => {
-            return response.json();
-        })
-        .then(btc => {
-            btcbanner.innerHTML = formatter.format(btc.bpi.USD.rate_float);
-            btctimer.innerHTML = btc.time.updated;
-            console.log(btc.bpi.USD.rate);
-            console.log(btc);
-        });
-        
-</script><script type="text/javascript">
 
     var path = window.location.pathname;
     var page = path.split("/");

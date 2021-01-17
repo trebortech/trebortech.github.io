@@ -26,9 +26,9 @@ Hardware list
 
 - $330 - <a href="https://www.amazon.com/gp/product/B07Z5LNWY6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">COMBO 4G/LTE Router</a>
 
-- $7 - <a href="https://www.amazon.com/gp/product/B07MJQWH8S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">SRP-SMA Male to RP-SMA Female Bulkhead Mount RG316</a>
+- $7 - <a href="https://www.amazon.com/gp/product/B07MT3VZXZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">SRP-SMA Male to RP-SMA Female Bulkhead Mount RG316</a>
 
-- $7 - <a href="https://www.amazon.com/gp/product/B07MJQWH8S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">Bingfu SMA Female Bulkhead Mount to SMA Male RG316</a>
+- $7 - <a href="https://www.amazon.com/gp/product/B07MJQWH8S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">SMA Female Bulkhead Mount to SMA Male</a>
 
 - $99 - <a href="https://www.amazon.com/gp/product/B01801BJ7I/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">External Wide Band Log Periodic Yagi Antenna</a>
 

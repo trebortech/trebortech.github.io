@@ -18,14 +18,14 @@ This site contains random items I work on or have been thinking about. I'll try 
 
 <div class="main-page-title">
 <p class="h5 main-page-text lh-lg fw-light">
-The left panel has links to the content based on catagories.
+The left panel has links to the content based on categories.
 </p>
 </div>
 
 <div class="main-page-title">
 <div class="h5 main-page-text lh-lg fw-light">
 <p class="fw-bold">Outdoors:</p>
-<p> The last year I've been working on spending more time outdoor. We purchased a small camper to help with travel. This section covers that story of my life.
+<p> Last year I worked on spending more time outdoors. We purchased a small camper to help with travel. This section covers that story of my life.
 </p>
 </div>
 </div>
@@ -47,7 +47,7 @@ The left panel has links to the content based on catagories.
 </div>
 
 <p class="h5 main-page-text lh-lg fw-light">
-Hope you enjoy!
+Hope you enjoy it!
 </p>
 </div>
 

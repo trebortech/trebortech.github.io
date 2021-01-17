@@ -52,22 +52,9 @@
           Bitcoin Price: <div id="btc-banner"></div>
           Last Update: <div id="btc-timer"></div>
         </div>
-        <div>
+        <div class="right-bottom">
           <div class="home"><h1 class="display-1 main-page-title">Project Page</h1>
-      <ul class="post-list"><li><span class="post-meta">Jan 5, 2021</span>
-          <h3>
-            <a class="display-6 post-title" href="/outdoors/camper/2021/01/05/test-camperpost.html">
-              Camper post test
-            </a>
-          </h3><p>Coming soon</p>
-</li><li><span class="post-meta">Jan 5, 2021</span>
-          <h3>
-            <a class="display-6 post-title" href="/outdoors/2021/01/05/test-post.html">
-              Test outdoor post
-            </a>
-          </h3><p>Outdoors post
-Coming soon</p>
-</li></ul>
+      <ul class="post-list"></ul>
   
       <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>  
         </div>
@@ -75,28 +62,6 @@ Coming soon</p>
     </div>
 
   </body><script type="text/javascript">
-
-    const formatter = new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        minimumFractionDigits: 2
-    })
-
-    var btcbanner = document.getElementById("btc-banner");
-    var btctimer = document.getElementById("btc-timer");
-
-    fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
-        .then(response => {
-            return response.json();
-        })
-        .then(btc => {
-            btcbanner.innerHTML = formatter.format(btc.bpi.USD.rate_float);
-            btctimer.innerHTML = btc.time.updated;
-            console.log(btc.bpi.USD.rate);
-            console.log(btc);
-        });
-        
-</script><script type="text/javascript">
 
     var path = window.location.pathname;
     var page = path.split("/");
