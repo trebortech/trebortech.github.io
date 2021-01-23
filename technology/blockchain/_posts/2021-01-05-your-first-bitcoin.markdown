@@ -3,6 +3,7 @@ layout: post
 title:  "Why Bitcoin"
 date:   2021-01-05 09:00:00 -0600
 excerpt_separator: <!--more-->
+github_comments_issueid: 3
 ---
 
 
@@ -51,4 +52,6 @@ The technology behind cryptocurrency hits at the core of our everyday lives. Cur
 </p>
 </div>
 </div>
+
 <iframe class="rounded float-start" width="420" height="315" src="https://www.youtube.com/embed/vUOpKfCuV_E" frameborder="0" allowfullscreen></iframe>
+<br>

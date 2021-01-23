@@ -22,7 +22,10 @@
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
   
-  <meta http-equiv="refresh" content="60"><link type="application/atom+xml" rel="alternate" href="http://localhost:8081/feed.xml" title="TreborTech" /></head><body>
+  <meta http-equiv="refresh" content="60"><link type="application/atom+xml" rel="alternate" href="http://localhost:8081/feed.xml" title="TreborTech" /></head>
+
+<script src="/assets/jquery-3.2.1.min.js"></script>
+<script src="/assets/github-comments.js"> </script><body>
     
     <div class="container-main">
       <div id="side-left" class="container-left">
@@ -34,7 +37,7 @@
   <div>
     <div>
       <div><nav>
-            <div><a class="tt-links" href="/">My Thoughts</a><br><a class="tt-links" href="/outdoors.html">Outdoors</a><br><a class="tt-links" href="/projects.html">Projects</a><br><a class="tt-links" href="/technology.html">Technology</a><br></div>
+            <div><a class="tt-links" href="/btc.html">Bitcoin Banner</a><br><a class="tt-links" href="/">My Thoughts</a><br><a class="tt-links" href="/outdoors.html">Outdoors</a><br><a class="tt-links" href="/projects.html">Projects</a><br><a class="tt-links" href="/technology.html">Technology</a><br></div>
           </nav></div>
     </div>
   
@@ -50,10 +53,6 @@
       </div>
       
       <div class="container-right">
-        <div class="alert alert-primary">
-          <div id="btc-banner"></div>
-          <div id="btc-timer"></div>
-        </div>
         <div class="right-bottom">
           <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -110,39 +109,42 @@ The technology behind cryptocurrency hits at the core of our everyday lives. Cur
 </p>
 </div>
 </div>
+
 <iframe class="rounded float-start" width="420" height="315" src="https://www.youtube.com/embed/vUOpKfCuV_E" frameborder="0" allowfullscreen=""></iframe>
+<p><br /></p>
 
   </div>
+
   <a class="u-url" href="/technology/blockchain/2021/01/05/your-first-bitcoin.html" hidden></a>
 </article>
-  
+<div>
+<hr class="rounded">
+
+
+    
+<div id="gh-comments">
+    <br/><br/>
+    <h6>COMMENTS</h6>
+    <div id="gh-comments-list"></div>
+</div>
+
+<script type="text/javascript"> 
+    DoGithubComments ( 
+        "trebortech/trebortech.github.io" , 
+        "3" 
+    ); 
+</script>
+
+<noscript>Please enable JavaScript to view comments.</noscript>
+
+
+
+</div>  
         </div>
       </div>
     </div>
 
   </body><script type="text/javascript">
-
-    const formatter = new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        minimumFractionDigits: 2
-    })
-
-    var btcbanner = document.getElementById("btc-banner");
-    var btctimer = document.getElementById("btc-timer");
-
-    fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
-        .then(response => {
-            return response.json();
-        })
-        .then(btc => {
-            btcbanner.innerHTML = "Bitcoin Price: " + formatter.format(btc.bpi.USD.rate_float);
-            btctimer.innerHTML = "Last Updated: " + btc.time.updated;
-            console.log(btc.bpi.USD.rate);
-            console.log(btc);
-        });
-        
-</script><script type="text/javascript">
 
     var path = window.location.pathname;
     var page = path.split("/");
@@ -168,6 +170,6 @@ The technology behind cryptocurrency hits at the core of our everyday lives. Cur
     
 </script>
 
-<script src="/assets/bootstrap/js/bootstrap.bundle.min.js></script>
+<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </html>

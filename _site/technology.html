@@ -20,7 +20,10 @@
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
   
-  <meta http-equiv="refresh" content="60"><link type="application/atom+xml" rel="alternate" href="http://localhost:8081/feed.xml" title="TreborTech" /></head><body>
+  <meta http-equiv="refresh" content="60"><link type="application/atom+xml" rel="alternate" href="http://localhost:8081/feed.xml" title="TreborTech" /></head>
+
+<script src="/assets/jquery-3.2.1.min.js"></script>
+<script src="/assets/github-comments.js"> </script><body>
     
     <div class="container-main">
       <div id="side-left" class="container-left">
@@ -32,7 +35,7 @@
   <div>
     <div>
       <div><nav>
-            <div><a class="tt-links" href="/">My Thoughts</a><br><a class="tt-links" href="/outdoors.html">Outdoors</a><br><a class="tt-links" href="/projects.html">Projects</a><br><a class="tt-links" href="/technology.html">Technology</a><br></div>
+            <div><a class="tt-links" href="/btc.html">Bitcoin Banner</a><br><a class="tt-links" href="/">My Thoughts</a><br><a class="tt-links" href="/outdoors.html">Outdoors</a><br><a class="tt-links" href="/projects.html">Projects</a><br><a class="tt-links" href="/technology.html">Technology</a><br></div>
           </nav></div>
     </div>
   
@@ -48,10 +51,6 @@
       </div>
       
       <div class="container-right">
-        <div class="alert alert-primary">
-          <div id="btc-banner"></div>
-          <div id="btc-timer"></div>
-        </div>
         <div class="right-bottom">
           <div class="home">
     
@@ -61,9 +60,9 @@
             <a href="/technology/2021/01/13/mobile-wifi.html">
               Mobile WIFI
             </a>
-          </h3><p>In an effort to stay on the road longer and possibly work from the road I needed an internet option. Instead of tethering my phone or having another phone dedicated to provide network connectivity, I decided to build a portable network football.</p>
+          </h3><p>In an effort to stay on the road longer and possibly work from the road I needed an internet option. Instead of tethering my phone or having another phone dedicated to provide network connectivity, I decided to build a portable network.</p>
 
-<p>Below I outline how I built this network football.</p>
+<p>Below I outline how I built, what I call, a network football.</p>
 
 </li><li><span class="post-meta">Jan 11, 2021</span>
           <h3 class="display-6 post-title">
@@ -105,28 +104,6 @@ You hear them talking about it on the news. You see tweets in your feed talking 
 
   </body><script type="text/javascript">
 
-    const formatter = new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        minimumFractionDigits: 2
-    })
-
-    var btcbanner = document.getElementById("btc-banner");
-    var btctimer = document.getElementById("btc-timer");
-
-    fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
-        .then(response => {
-            return response.json();
-        })
-        .then(btc => {
-            btcbanner.innerHTML = "Bitcoin Price: " + formatter.format(btc.bpi.USD.rate_float);
-            btctimer.innerHTML = "Last Updated: " + btc.time.updated;
-            console.log(btc.bpi.USD.rate);
-            console.log(btc);
-        });
-        
-</script><script type="text/javascript">
-
     var path = window.location.pathname;
     var page = path.split("/");
     var t = document.getElementById("side-left")
@@ -151,6 +128,6 @@ You hear them talking about it on the news. You see tweets in your feed talking 
     
 </script>
 
-<script src="/assets/bootstrap/js/bootstrap.bundle.min.js></script>
+<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </html>

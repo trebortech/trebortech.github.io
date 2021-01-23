@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:8081/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:8081/" rel="alternate" type="text/html" /><updated>2021-01-16T23:04:29-06:00</updated><id>http://localhost:8081/feed.xml</id><title type="html">TreborTech</title><subtitle>Nobody should ever have to solve a problem twice.</subtitle><entry><title type="html">Mobile WIFI</title><link href="http://localhost:8081/technology/2021/01/13/mobile-wifi.html" rel="alternate" type="text/html" title="Mobile WIFI" /><published>2021-01-13T09:00:00-06:00</published><updated>2021-01-13T09:00:00-06:00</updated><id>http://localhost:8081/technology/2021/01/13/mobile-wifi</id><content type="html" xml:base="http://localhost:8081/technology/2021/01/13/mobile-wifi.html">&lt;p&gt;In an effort to stay on the road longer and possibly work from the road I needed an internet option. Instead of tethering my phone or having another phone dedicated to provide network connectivity, I decided to build a portable network football.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:8081/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:8081/" rel="alternate" type="text/html" /><updated>2021-01-22T20:20:00-06:00</updated><id>http://localhost:8081/feed.xml</id><title type="html">TreborTech</title><subtitle>Nobody should ever have to solve a problem twice.</subtitle><entry><title type="html">Mobile WIFI</title><link href="http://localhost:8081/technology/2021/01/13/mobile-wifi.html" rel="alternate" type="text/html" title="Mobile WIFI" /><published>2021-01-13T09:00:00-06:00</published><updated>2021-01-13T09:00:00-06:00</updated><id>http://localhost:8081/technology/2021/01/13/mobile-wifi</id><content type="html" xml:base="http://localhost:8081/technology/2021/01/13/mobile-wifi.html">&lt;p&gt;In an effort to stay on the road longer and possibly work from the road I needed an internet option. Instead of tethering my phone or having another phone dedicated to provide network connectivity, I decided to build a portable network.&lt;/p&gt;
 
-&lt;p&gt;Below I outline how I built this network football.&lt;/p&gt;
+&lt;p&gt;Below I outline how I built, what I call, a network football.&lt;/p&gt;
 
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/mobile-wifi-1.jpg&quot; alt=&quot;Mobile WIFI&quot; height=&quot;300&quot; /&gt;
 &lt;img src=&quot;/assets/img/mobile-wifi-2.jpg&quot; alt=&quot;Mobile WIFI&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Requirements&lt;/p&gt;
+&lt;p&gt;Project Requirements&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Dedicated internet system&lt;/li&gt;
   &lt;li&gt;Works with 12v DC system&lt;/li&gt;
@@ -70,7 +70,10 @@
 &lt;p&gt;The keen eye will notice a few other items I haven’t listed above under hardware. They are items outside of the wifi connection. I added two LED lights to the side and a switch on top to turn them on and off.&lt;/p&gt;
 
 &lt;p class=&quot;fw-bold&quot;&gt;Building it:&lt;/p&gt;
-&lt;p&gt;Just connect it all together&lt;/p&gt;</content><author><name></name></author><category term="technology" /><summary type="html">In an effort to stay on the road longer and possibly work from the road I needed an internet option. Instead of tethering my phone or having another phone dedicated to provide network connectivity, I decided to build a portable network football. Below I outline how I built this network football.</summary></entry><entry><title type="html">FIDO Introduction</title><link href="http://localhost:8081/technology/2021/01/11/fido-intro.html" rel="alternate" type="text/html" title="FIDO Introduction" /><published>2021-01-11T09:00:00-06:00</published><updated>2021-01-11T09:00:00-06:00</updated><id>http://localhost:8081/technology/2021/01/11/fido-intro</id><content type="html" xml:base="http://localhost:8081/technology/2021/01/11/fido-intro.html">&lt;figure&gt;
+&lt;p&gt;Just connect it all together&lt;/p&gt;
+
+&lt;p class=&quot;fw-bold&quot;&gt;Cost justification:&lt;/p&gt;
+&lt;p&gt;This is not a cheap project when all is said and done. But when you take a step back and evaluate your own happiness it’s well worth it. The way I looked at it is if this project helps me spend a few more days on the road enjoying my time and visiting places I haven’t been before then it’s well worth it. Add in that I’m in a better mood overall and this adds value to my relationship with my wife, who also enjoys these road adventures.&lt;/p&gt;</content><author><name></name></author><category term="technology" /><summary type="html">In an effort to stay on the road longer and possibly work from the road I needed an internet option. Instead of tethering my phone or having another phone dedicated to provide network connectivity, I decided to build a portable network. Below I outline how I built, what I call, a network football.</summary></entry><entry><title type="html">FIDO Introduction</title><link href="http://localhost:8081/technology/2021/01/11/fido-intro.html" rel="alternate" type="text/html" title="FIDO Introduction" /><published>2021-01-11T09:00:00-06:00</published><updated>2021-01-11T09:00:00-06:00</updated><id>http://localhost:8081/technology/2021/01/11/fido-intro</id><content type="html" xml:base="http://localhost:8081/technology/2021/01/11/fido-intro.html">&lt;figure&gt;
   &lt;blockquote class=&quot;blockquote&quot;&gt;
     &lt;p&gt;Never has the world been more dependent on the internet, and never has it been more attacked than in 2020. In fact, it proved to be a year where trust in many of our systems was challenged. Yet I remain an eternal optimist and believe that we can transform the hard lessons learned in 2020&lt;/p&gt;
   &lt;/blockquote&gt;
@@ -122,4 +125,6 @@ The technology behind cryptocurrency hits at the core of our everyday lives. Cur
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;iframe class=&quot;rounded float-start&quot; width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vUOpKfCuV_E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="technology" /><category term="blockchain" /><summary type="html">Code talks, Talk walks. Andreas Antonopoulos You hear them talking about it on the news. You see tweets in your feed talking about. YouTube knows you're thinking about it and suggests CryptoDaily.</summary></entry></feed>
+
+&lt;iframe class=&quot;rounded float-start&quot; width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vUOpKfCuV_E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="technology" /><category term="blockchain" /><summary type="html">Code talks, Talk walks. Andreas Antonopoulos You hear them talking about it on the news. You see tweets in your feed talking about. YouTube knows you're thinking about it and suggests CryptoDaily.</summary></entry></feed>

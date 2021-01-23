@@ -3,18 +3,19 @@ layout: post
 title:  "Mobile WIFI"
 date:   2021-01-13 09:00:00 -0600
 excerpt_separator: <!--more-->
+github_comments_issueid: 2
 ---
 
-In an effort to stay on the road longer and possibly work from the road I needed an internet option. Instead of tethering my phone or having another phone dedicated to provide network connectivity, I decided to build a portable network football.
+In an effort to stay on the road longer and possibly work from the road I needed an internet option. Instead of tethering my phone or having another phone dedicated to provide network connectivity, I decided to build a portable network.
 
-Below I outline how I built this network football. 
+Below I outline how I built, what I call, a network football. 
 
  <!--more-->
 
 <img src="/assets/img/mobile-wifi-1.jpg" alt="Mobile WIFI" height="300">
 <img src="/assets/img/mobile-wifi-2.jpg" alt="Mobile WIFI" height="300">
 
-Requirements
+Project Requirements
 - Dedicated internet system
 - Works with 12v DC system
 - Ruggedized
@@ -67,3 +68,6 @@ The keen eye will notice a few other items I haven't listed above under hardware
 
 <p class="fw-bold">Building it:</p>
 Just connect it all together
+
+<p class="fw-bold">Cost justification:</p>
+This is not a cheap project when all is said and done. But when you take a step back and evaluate your own happiness it's well worth it. The way I looked at it is if this project helps me spend a few more days on the road enjoying my time and visiting places I haven't been before then it's well worth it. Add in that I'm in a better mood overall and this adds value to my relationship with my wife, who also enjoys these road adventures.

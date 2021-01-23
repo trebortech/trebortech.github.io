@@ -306,4 +306,10 @@ body { overflow-x: hidden; }
 
 .post-title { margin-bottom: 45px; }
 
+hr.rounded { width: 25%; border-top: 8px solid whitesmoke; border-radius: 5px; }
+
+.gh-comment { letter-spacing: 3px; }
+
+.gh-comment-body { margin-top: 20px; margin-left: 65px; margin-bottom: 40px; }
+
 /*# sourceMappingURL=main.css.map */

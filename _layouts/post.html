@@ -19,5 +19,11 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+<div>
+<hr class="rounded">
+{% include github-comments.html %}
+
+</div>
