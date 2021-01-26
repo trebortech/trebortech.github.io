@@ -22,7 +22,6 @@
 
 <script src="/assets/jquery-3.2.1.min.js"></script>
 <script src="/assets/github-comments.js"> </script>
-<script src="/assets/tt-custom.js"> </script>
 <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script><body>
     
     <div class="container-main">
@@ -109,4 +108,28 @@ Hope you enjoy it!
       </div>
     </div>
 
-  </body><script src="/assets/tt-custom.js"> </script></html>
+  </body><script type="text/javascript">
+
+    var path = window.location.pathname;
+    var page = path.split("/");
+    var t = document.getElementById("side-left")
+
+    switch (page[1]) {
+        case 'technology':
+        case 'technology.html':
+            t.style.backgroundImage = `url('/assets/img/yk-hsm.png')`;
+            break;
+        case 'outdoors':
+        case 'outdoors.html':
+            t.style.backgroundImage = `url('/assets/img/outdoor.png')`;
+            break;
+        case 'projects':
+        case 'projects.html':
+            t.style.backgroundImage = `url('/assets/img/yk-case.png')`;
+            break;
+        default:
+            t.style.backgroundImage = `url('/assets/img/luna-opa.jpg')`;
+
+    }
+
+</script></html>
