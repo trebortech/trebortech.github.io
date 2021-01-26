@@ -30,6 +30,9 @@ github_username:  trebortech
 # Run settings
 port: 8081
 
+# Google Analytics
+google_analytics: G-8WZCP1S6R3
+
 # Build settings
 show_excerpts: true
 theme: minima
